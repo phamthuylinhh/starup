@@ -7,7 +7,7 @@ namespace startup.Models
     public class Menu
     {
         [Key]
-        public int MenuId { get; set; }
+        public int MenuID { get; set; }
         public string? MenuName { get; set; }
         public bool? IsActive { get; set; }
         public string? ControllerName { get; set; }
